@@ -1,0 +1,27 @@
+iframe {
+   height: 360px;
+   width: 640px;
+}
+
+h1 {
+    color: white;
+}
+
+.elBgrd {    
+    justify-content: center;
+    text-align: center;   
+}
+
+.midLine {    
+    justify-content: center;
+    text-align: center;
+    height: 120px;
+    margin: auto;
+    border: 3px solid #4a4e69;
+    background-color: #4a4e69;
+}
+
+.midLineText {
+    color: white;
+    font-size: 20px;
+}
