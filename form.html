@@ -2,31 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- OG META TAGS FOR FACEBOOK SHARE BELOW https://ogp.me/ -->
+    <meta property="og:title" content="La pagina de Gab" />
+    <meta property="og:type" content="web" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body style="background-color: #3e1f47">
     <form>
       <fieldset>
-        <legend>Pongase en contacto con nosotros</legend>
+        <legend style="font-size: 20px">
+          Pongase en contacto con nosotros
+        </legend>
         <div class="elBgrd">
           <p>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" />
+            <label for="nombre" style="font-size: 20px">Nombre:</label><br />
+            <input type="text" required name="nombre" id="nombre" />
           </p>
           <p>
-            <label for="apellido">Apellido:</label>
+            <label for="apellido" style="font-size: 20px">Apellido:</label
+            ><br />
             <input type="text" name="apellido" id="apellido" />
           </p>
           <p>
-            <label for="mail">Correo electrónico:</label>
-            <input type="mail" name="mail" id="mail" />
+            <label for="mail" style="font-size: 20px">Correo electrónico:</label
+            ><br />
+            <input type="mail" required name="mail" id="mail" />
           </p>
-          <textarea style="width: 250px; height: 100px;">
-            Deje aca su mensaje para recibir cerveza gratis
+          <textarea style="width: 250px; height: 100px">
+            Deje acá su mensaje para recibir cerveza gratis
           </textarea>
-          <p><input type="submit" value="Suscribirse" /></p>          
+          <p><input type="submit" value="Suscribirse" /></p>
         </div>
       </fieldset>
     </form>
